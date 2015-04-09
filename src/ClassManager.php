@@ -39,12 +39,12 @@
  * @link        http://github.com/bschmithuysen/ClassManager
  */
 
-namespace bschmithuysen\ClassManager;
+namespace ClassManager;
 
 
-use bschmithuysen\ClassManager\interfaces\ClassManagerInterface;
-use bschmithuysen\ClassManager\interfaces\ClassConfigurationInterface;
-use bschmithuysen\ClassManager\interfaces\ClassContainerInterface;
+use ClassManager\interfaces\ClassManagerInterface;
+use ClassManager\interfaces\ClassConfigurationInterface;
+use ClassManager\interfaces\ClassContainerInterface;
 
 /**
  * Class ClassManager

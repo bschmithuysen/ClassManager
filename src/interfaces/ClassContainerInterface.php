@@ -1,6 +1,6 @@
 <?php
 
-namespace bschmithuysen\ClassManager\interfaces;
+namespace ClassManager\interfaces;
 
 
 interface ClassContainerInterface

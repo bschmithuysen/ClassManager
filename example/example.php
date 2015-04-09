@@ -4,9 +4,9 @@ require_once('../src/autoload.php');
 require_once('myClass.php');
 require_once('dependencyClass.php');
 
-use bschmithuysen\ClassManager\ArrayClassConfiguration;
-use bschmithuysen\ClassManager\ClassContainer;
-use bschmithuysen\ClassManager\ClassManager;
+use ClassManager\ArrayClassConfiguration;
+use ClassManager\ClassContainer;
+use ClassManager\ClassManager;
 
 $classConfiguration = array(
     'myClass' => array(

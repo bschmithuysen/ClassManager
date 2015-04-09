@@ -7,12 +7,12 @@ spl_autoload_register(
         if ($classes === null) {
 
             $classes = array(
-                'bschmithuysen\ClassManager\interfaces\ClassConfigurationInterface' => '/interfaces/ClassConfigurationInterface.php',
-                'bschmithuysen\ClassManager\interfaces\ClassContainerInterface' => '/interfaces/ClassContainerInterface.php',
-                'bschmithuysen\ClassManager\interfaces\ClassManagerInterface' => '/interfaces/ClassManagerInterface.php',
-                'bschmithuysen\ClassManager\ArrayClassConfiguration' => '/ArrayClassConfiguration.php',
-                'bschmithuysen\ClassManager\ClassContainer' => '/ClassContainer.php',
-                'bschmithuysen\ClassManager\ClassManager' => '/ClassManager.php'
+                'ClassManager\interfaces\ClassConfigurationInterface' => '/interfaces/ClassConfigurationInterface.php',
+                'ClassManager\interfaces\ClassContainerInterface' => '/interfaces/ClassContainerInterface.php',
+                'ClassManager\interfaces\ClassManagerInterface' => '/interfaces/ClassManagerInterface.php',
+                'ClassManager\ArrayClassConfiguration' => '/ArrayClassConfiguration.php',
+                'ClassManager\ClassContainer' => '/ClassContainer.php',
+                'ClassManager\ClassManager' => '/ClassManager.php'
             );
         }
         if (isset($classes[$class])) {

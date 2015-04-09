@@ -39,9 +39,9 @@
  * @link        http://github.com/bschmithuysen/ClassManager
  */
 
-namespace bschmithuysen\ClassManager;
+namespace ClassManager;
 
-use bschmithuysen\ClassManager\interfaces\ClassConfigurationInterface;
+use ClassManager\interfaces\ClassConfigurationInterface;
 
 /**
  * Class ArrayClassConfiguration
